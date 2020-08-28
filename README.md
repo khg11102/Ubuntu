@@ -143,6 +143,24 @@ $ sudo apt-get update
 $ sudo apt-get install google-chrome-stable
 $ sudo rm -rf /etc/apt/sources.list.d/google.list
 
+#터미널 분할툴
+$ sudo apt-get install terminator
+* 수평 분할 : Ctrl + Shift + O
+
+* 수직 분할 :  : Ctrl + Shift + E
+
+* 다음 창 활성화 : Ctrl + Tab   or   Ctrl + Shift + N
+
+* 이전 창 활성화 : Ctrl + Shift + Tab   or   Ctrl + Shift + P
+
+* 현재 활성화 된 창 닫기 : Ctrl + Shift + W
+
+* 터미네이터 실행 : Ctrl + Alt + T
+
+* 터미네이터 종료 : Ctrl + Shift + Q
+
+* 전체화면 : F11
+
 
 ```
 
