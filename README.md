@@ -163,4 +163,32 @@ $ sudo apt-get install terminator
 
 
 ```
+# Ubuntu SSH
 
+## SSH 연결
+
+```
+ssh [계정ID]@ip -p[포트번호]
+password : 계정ID 비밀번호
+```
+
+
+
+## 업로드, 다운로드
+
+```
+#파일 업로드 scp -P [포트번호] [업로드할폴더경로] [타겟서버경로]
+scp -P 622 /home/linux/Desktop/test.txt aics@ip:/home/aics/Pictures/
+
+#파일 다운로드 scp -P [포트번호] [다운받을서버경로] [타겟경로]
+scp -P 622 aics@168.131.142.147:/home/aics/Pictures/test.txt /home/linux/Desktop/test.txt
+```
+
+## 
+
+## 공유기 연결시
+
+1. 사용중인 공유기에서 포트포워딩 해주기
+2. sudo gedit /etc/ssh/sshd_config파일 포트 번호도 변경
+3. netstat -anp | grep LISTEM | grep tcp 포트확인
+4. sudo service sshd restart
