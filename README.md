@@ -210,6 +210,7 @@ Retype nes SMB password:
 Added user linux.
 
 #로컬컴퓨터
+smb://[ip]
 사용자 : linux
 비밀번호 : ****
 ```
