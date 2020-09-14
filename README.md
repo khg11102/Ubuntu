@@ -199,3 +199,17 @@ nvidia-smi
 nvidia-smi nvlink -h
 nvidia-smi nvlink --status
 ```
+
+## SAMBA
+```
+#공유폴더 생성
+#유저 추가
+sudo smbpasswd -a linux
+New SMB password:
+Retype nes SMB password:
+Added user linux.
+
+#로컬컴퓨터
+사용자 : linux
+비밀번호 : ****
+```
