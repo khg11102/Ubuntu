@@ -168,7 +168,7 @@ $ sudo apt-get install terminator
 ## SSH 연결
 
 ```
-ssh [계정ID]@ip -p[포트번호]
+ssh -p622 [계정ID]@ip
 password : 계정ID 비밀번호
 ```
 
