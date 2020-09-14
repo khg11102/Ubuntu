@@ -192,3 +192,10 @@ scp -P 22 aics@ip:/home/aics/Pictures/test.txt /home/linux/Desktop/test.txt
 2. sudo gedit /etc/ssh/sshd_config파일 포트 번호도 변경
 3. netstat -anp | grep LISTEM | grep tcp 포트확인
 4. sudo service sshd restart
+
+## NVIDIA
+```
+nvidia-smi
+nvidia-smi nvlink -h
+nvidia-smi nvlink --status
+```
