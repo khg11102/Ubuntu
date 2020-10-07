@@ -214,3 +214,15 @@ smb://[ip]
 사용자 : linux
 비밀번호 : ****
 ```
+
+## Jupyter Notebook
+```
+#주피터 테마설치
+pip install jupyterthems
+#테마 목록
+jt -l
+#테마 적용
+jut -t monokai
+#커스텀 테마
+jt -t grade3 -f roboto -fs 12 -altp -tfs 12 -nfs 12 -cellw 80% -T -N
+```
