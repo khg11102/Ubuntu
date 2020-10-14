@@ -217,6 +217,10 @@ smb://[ip]
 
 ## Jupyter Notebook
 ```
+#양방향 파일 변환
+ipynb-py-convert in.ipynb out.py
+ipynb-py-convert in.py out.ipynb
+
 #주피터 테마설치
 pip install jupyterthems
 #테마 목록
